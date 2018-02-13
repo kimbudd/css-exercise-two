@@ -1,6 +1,23 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 100%;
+  line-height: 1.2;
 }
 
 nav {
@@ -9,6 +26,15 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#000000; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 .logo {
   margin: 20px;
